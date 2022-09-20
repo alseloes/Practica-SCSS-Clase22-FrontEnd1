@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+body header {
+  background-color: #E6E6E6;
+  height: auto;
+  text-align: center;
+}
+body header img {
+  padding: 1rem;
+}
+body header h1 {
+  background-color: #C4C4C4;
+  color: #005677;
+  font-size: 2rem;
+  height: 2.5rem;
+  padding-top: 1px;
+  letter-spacing: 5px;
+}
+body main {
+  padding-top: 6rem;
+}
+body main section h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+body main section ul.tipo1 {
+  padding-top: 0.5rem;
+  margin-left: 5rem;
+}
+body main section ul.tipo1 li {
+  padding-top: 0.5rem;
+}
+body main section ul.tipo1 li p.datos {
+  font-style: italic;
+  font-weight: 700;
+}
+body main section ul.tipo1 li p span.normal {
+  font-style: normal;
+  font-weight: 400;
+}
+body main section.edit h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+body main section.edit ul.info {
+  display: flex;
+  padding-top: 0.5rem;
+}
+body main section.edit ul.info li p.fechas {
+  padding-left: 4rem;
+  padding-right: 10px;
+  font-weight: 700;
+  line-height: normal;
+}
+body footer {
+  margin-top: 3rem;
+  background-color: #005677;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 30px;
+}/*# sourceMappingURL=styles.css.map */
